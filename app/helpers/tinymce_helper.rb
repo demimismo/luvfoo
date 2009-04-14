@@ -9,7 +9,7 @@ module TinymceHelper
     '<input id="pages-path" type="hidden" value="' + auto_complete_pages_path + '">' + 
     '<input id="parent-type" type="hidden" value="' + parent_type + '">' + 
     '<input id="parent-id" type="hidden" value="' + parent_id.to_s + '">' + 
-    '<input id="session-key" type="hidden" value="' + GlobalConfig.session_key + '">' + 
+    '<input id="session-key" type="hidden" value="' + GlobalConfig.session_key.to_s + '">' +
     '<input id="session-id" type="hidden" value="' + session.session_id + '">'
   end
   
