@@ -12,10 +12,10 @@ default: &DEFAULT
   google_analytics_key: 'UA-YOUR-KEY'
 
   integrate_portfolio: false
-	
-	# Use to indicate whether to use a 'following' strategy like twitter (true) or 
-	# a 'friend' strategy like facebook (true)
-	allow_following: false
+
+  # Use to indicate whether to use a 'following' strategy like twitter (true) or 
+  # a 'friend' strategy like facebook (true)
+  allow_following: false
 
   portfolio_url_template: "groups.luvfoo.com/Members/{user_login}/my-eportfolio/RSS"
 
@@ -52,11 +52,8 @@ default: &DEFAULT
       storage: 'file_system'
       #content_type: ['image/jpg', 'image/jpeg', 'image/pjpeg', 'image/gif', 'image/png', 'image/x-png']
       #processor: image_science
-	
-  # controls account activation and automatic login
-  automatically_activate: true
-  automatically_login_after_account_create: true	
-	use_recaptcha: true
+
+  use_recaptcha: true
   # if you use recaptcha you will need to also provide a public and private
   # key available from http://recaptcha.net.
   recaptcha_pub_key: put public key here
